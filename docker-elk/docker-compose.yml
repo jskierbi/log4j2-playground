@@ -26,7 +26,7 @@ services:
     image: docker.elastic.co/logstash/logstash:7.6.2
     container_name: ls01
     volumes:
-      - .pipeline/:/usr/share/logstash/pipeline/
+      - .pipeline/elastic.conf:/usr/share/logstash/pipeline/elastic.conf
     networks:
       - elastic
 
