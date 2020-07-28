@@ -1,6 +1,7 @@
 ## Run ELK stack
 
 ```
+cd docker-elk
 docker-compose up
 ```
 
